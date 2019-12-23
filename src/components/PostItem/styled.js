@@ -5,6 +5,7 @@ export const PostItemWrapper = styled.section`
   align-items: center;
   padding: 2rem 3rem;
   width: 100%;
+  border-bottom: 1px solid #e0e0e0;
 `
 
 export const PostItemLink = styled(Link)`
@@ -18,24 +19,21 @@ export const PostItemLink = styled(Link)`
 `
 
 export const PostItemTag = styled.span`
-  background: ${props => props.background};
+  background: ${props => (props.background ? props.background : "#b1b1b1")};
   color: #fff;
   font-size: 1.125rem;
   font-weight: regular;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-left: 1.5rem;
-  margin-bottom: 1.5rem;
   padding: 0.3rem;
 `
 
 export const PostItemInfo = styled.div`
-  display: flex;
-  flex-direction: column;
   margin-left: 1.5rem;
 `
 
 export const PostItemDate = styled.time`
+  display: block;
   font-size: 0.9rem;
   line-height: 2;
   margin-top: 1rem;
@@ -53,11 +51,4 @@ export const PostItemDescription = styled.p`
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1.2;
-`
-
-export const PostItemLine = styled.span`
-  display: flex;
-  border-top: 1px solid #e0e0e0;
-  width: 15rem;
-  margin-top: 2rem;
 `
