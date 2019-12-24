@@ -2,9 +2,9 @@ import React from "react"
 
 import { Home } from "styled-icons/fa-solid/Home"
 import { SearchAlt as Search } from "styled-icons/boxicons-regular/SearchAlt"
-import { Lightbulb } from "styled-icons/fa-solid/Lightbulb"
+import { Lightbulb } from "styled-icons/remix-line/Lightbulb"
 import { Grid } from "styled-icons/boxicons-solid/Grid"
-import { UpArrowCircle } from "styled-icons/boxicons-solid/UpArrowCircle"
+import { ArrowAltCircleUp } from "styled-icons/fa-regular/ArrowAltCircleUp"
 import * as S from "./styled"
 
 const MenuBar = () => (
@@ -33,7 +33,7 @@ const MenuBar = () => (
       </S.MenuBarItem>
 
       <S.MenuBarItem title="Ir para o topo">
-        <UpArrowCircle />
+        <ArrowAltCircleUp />
       </S.MenuBarItem>
     </S.MenuBarGroup>
   </S.MenuBarWrapper>
