@@ -11,14 +11,21 @@ const BlogPost = ({ data }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        image={post.frontmatter.image}
+      />
       <S.PostHeader>
         <S.PostDate>
           {post.frontmatter.date} • {post.timeToRead} min de leitura
         </S.PostDate>
+        <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
+        <S.PostDescription>{post.frontmatter.description}</S.PostDescription>
       </S.PostHeader>
-      <h1>{post.frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+      <S.MainContent>
+        <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+      </S.MainContent>
     </Layout>
   )
 }

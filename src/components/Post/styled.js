@@ -1,36 +1,46 @@
 import styled from "styled-components"
 
 export const PostHeader = styled.header`
-  color: #fff;
   margin: auto;
   max-width: 70rem;
   padding: 5rem 5rem 0;
 `
 
 export const PostTitle = styled.h1`
-  font-size: 4rem;
-  font-weight: 700;
+  color: #474747;
+  font-family: "Robo Slab";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.5rem;
   padding: 0 1.4rem;
   margin: 1rem auto;
 `
 
 export const PostDescription = styled.h1`
+  color: #474747;
   font-size: 2rem;
   font-weight: 300;
   padding: 0 1.4rem;
 `
 
 export const PostDate = styled.p`
-  font-size: 1.1rem;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1rem;
   font-weight: 100;
   padding: 0 1.4rem;
+  color: #cd9393;
 `
 
 export const MainContent = styled.section`
   margin: auto;
   max-width: 70rem;
   padding: 2rem 5rem;
-
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  color: #474747;
   p,
   h1,
   h2,
@@ -65,7 +75,7 @@ export const MainContent = styled.section`
   .tags,
   iframe,
   .button-post {
-    color: #141414;
+    color: #474747;
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.7;
