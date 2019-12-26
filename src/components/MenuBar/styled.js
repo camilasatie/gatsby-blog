@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 export const MenuBarWrapper = styled.aside`
   align-items: center;
-  background: #fff;
-  border-left: 1px solid #e0e0e0;
+  background: var(--background);
+  border-left: 1px solid var(--borders);
   display: flex;
   flex-direction: column;
   height: 100vh;

@@ -14,6 +14,6 @@ export const PaginationWrapper = styled.section`
   }
 
   &:hover {
-    color: #59bac3;
+    color: var(--highlight);
   }
 `

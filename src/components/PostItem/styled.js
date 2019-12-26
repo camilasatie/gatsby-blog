@@ -5,16 +5,16 @@ export const PostItemWrapper = styled.section`
   align-items: center;
   padding: 2rem 3rem;
   width: 100%;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--borders);
 `
 
 export const PostItemLink = styled(Link)`
-  color: #474747;
+  color: var(--texts);
   display: flex;
   text-decoration: none;
 
   &:hover {
-    color: #59bac3;
+    color: var(--highlight);
   }
 `
 

@@ -67,5 +67,45 @@ const GlobalStyles = createGlobalStyle`
     width: 100%;
     height: auto;
   }
+
+  body {
+    --borders: #E0E0E0;
+    --texts: #3A3A3A;
+    --profilelink: #3b2c59;
+    --profileposition: #474747;
+    --profiledescription: #474747
+    --sociallinks: #3b2c59;
+    --menu: #3b2c59;
+    --posth1: #474747;
+    --posttext: #474747;
+    --postColor: #fff;
+    --highlight: #59bac3;
+    --recpage: #f1f1f1;
+    --mediumBackground: #192734;
+    --background:#fff;
+    --sidebar: #FFDCC2;
+    --white: #fff;
+    --black: #222;
+  }
+
+  body.dark {
+    --borders: #727272;
+    --texts: #A0A0A0;
+    --profilelink: #8F7BB7;
+    --profileposition: #A0A0A0;
+    --profiledescription: #E0E0E0
+    --sociallinks: #8F7BB7;
+    --menu: #8F7BB7;
+    --posth1: #fff;
+    --posttext: #A0A0A0;
+    --postColor: #fff;
+    --highlight: #59bac3;
+    --recpage: #545454;
+    --mediumBackground: #192734;
+    --background:#3D3D3D;
+    --sidebar: #2E2D2C;
+    --white: #fff;
+    --black: #222;
+  }
 `
 export default GlobalStyles

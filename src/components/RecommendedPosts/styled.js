@@ -2,15 +2,15 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const RecommendedWrapper = styled.section`
-  border-bottom: 1px solid #e0e0e0;
-  border-top: 1px solid #e0e0e0;
-  background: #fff;
+  border-bottom: 1px solid var(--borders);
+  border-top: 1px solid var(--borders);
+  background: var(--background);
   display: flex;
 `
 
 export const RecommendedLink = styled(Link)`
   align-items: center;
-  background: #fff;
+  background: var(--background);
   color: #ff98b1;
   display: flex;
   padding: 3rem;
@@ -19,11 +19,11 @@ export const RecommendedLink = styled(Link)`
   width: 50%;
 
   &:hover {
-    background: #f1f1f1;
+    background: var(--recpage);
   }
 
   &.previous {
-    border-right: 1px solid #e0e0e0;
+    border-right: 1px solid var(--borders);
   }
 
   &.next {

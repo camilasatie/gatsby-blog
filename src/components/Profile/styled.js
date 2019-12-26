@@ -2,13 +2,13 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const ProfileWrapper = styled.section`
-  color: ##3b2c59;
+  color: #3b2c59;
   display: flex;
   flex-direction: column;
 `
 
 export const ProfileLink = styled(Link)`
-  color: #3b2c59;
+  color: var(--profilelink);
   text-decoration: none;
   transition: color 0.5s;
 
@@ -27,7 +27,7 @@ export const ProfilePosition = styled.small`
   font-style: normal;
   font-size: 1.2rem;
   font-weight: 300;
-  color: #474747;
+  color: var(--profileposition);
   display: block;
 `
 
@@ -35,4 +35,5 @@ export const ProfileDescription = styled.p`
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.4;
+  color: var(--profiledescription);
 `

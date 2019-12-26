@@ -7,7 +7,7 @@ export const PostHeader = styled.header`
 `
 
 export const PostTitle = styled.h1`
-  color: #474747;
+  color: var(--posth1);
   font-family: "Robo Slab";
   font-style: normal;
   font-weight: 300;
@@ -17,7 +17,7 @@ export const PostTitle = styled.h1`
 `
 
 export const PostDescription = styled.h1`
-  color: #474747;
+  color: var(--posttext);
   font-size: 2rem;
   font-weight: 300;
   padding: 0 1.4rem;
@@ -40,7 +40,7 @@ export const MainContent = styled.section`
   font-family: "Roboto";
   font-style: normal;
   font-weight: 300;
-  color: #474747;
+  color: var(--posttext);
   p,
   h1,
   h2,
@@ -75,7 +75,7 @@ export const MainContent = styled.section`
   .tags,
   iframe,
   .button-post {
-    color: #474747;
+    color: var(--posttext);
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.7;

@@ -17,7 +17,7 @@ export const MenuLinksItem = styled.li`
 `
 export const MenuLinksLink = styled(Link)`
   font-weight: 500;
-  color: #3b2c59;
+  color: var(--menu);
   text-decoration: none;
   transition: color 0.5s;
   line-height: 2.5rem;
