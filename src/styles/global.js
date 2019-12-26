@@ -68,7 +68,7 @@ const GlobalStyles = createGlobalStyle`
     height: auto;
   }
 
-  body {
+  body.light {
     --borders: #E0E0E0;
     --texts: #3A3A3A;
     --profilelink: #3b2c59;
