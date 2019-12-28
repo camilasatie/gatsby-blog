@@ -8,7 +8,7 @@ module.exports = {
     position: `Desenvolvedora Front-End`,
     description: `Camila Satie - Desenvolvimento de Websites`,
     author: `@mybvlog`,
-    siteUrl: `https://www.camilasatie.com.br`,
+    siteUrl: `cs-gatsby-blog.netlify.com`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
