@@ -8,8 +8,10 @@ module.exports = {
     position: `Desenvolvedora Front-End`,
     description: `Camila Satie - Desenvolvimento de Websites`,
     author: `@mybvlog`,
+    siteUrl: `https://www.camilasatie.com.br`,
   },
   plugins: [
+    `gatsby-plugin-transition-link`,
     `gatsby-plugin-react-helmet`,
     // needs to be the first to work with gatsby-remark-images
     {
